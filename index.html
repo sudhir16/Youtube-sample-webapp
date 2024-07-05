@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <div id="particles-js"></div>
     <header>
         <h1>Devops With Sudhir</h1>
         <nav>
@@ -28,15 +29,17 @@
         
         <section id="videos">
             <h2>Latest Videos</h2>
-            <div class="video">
-                <h3>OPNsense Installation in Virtualbox - Step by Step process</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LHCwMMlJL4E" frameborder="0" allowfullscreen></iframe>
+            <div class="video-container">
+                <div class="video">
+                    <h3>OPNsense Installation in Virtualbox - Step by Step process</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LHCwMMlJL4E" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>AWS Secrets Manager - Basics in 2 Mins</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ET3XLFJvjGw" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <!-- Add more videos here -->
             </div>
-            <!-- <div class="video">
-                <h3>Video Title 2</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
-            </div> -->
-            <!-- Add more videos here -->
         </section>
         
         <section id="about">
@@ -52,6 +55,8 @@
                 <a href="mailto:sudhirkumarsubban16@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Gmail</a>
                 <!-- Instagram icon and link -->
                 <a href="https://www.instagram.com/sudhir_kumar_16/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <!-- Github icon and link -->
+                <a href="https://www.instagram.com/sudhir_kumar_16/" target="_blank"><i class="fab fa-github"></i> Github</a>
             </div>
         </section>
     </main>
@@ -59,5 +64,10 @@
     <footer>
         <p>&copy; 2024 Devops With Sudhir. All rights reserved.</p>
     </footer>
+
+    <!-- Include particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Include the particles.js configuration -->
+    <script src="particles-config.js"></script>
 </body>
 </html>
